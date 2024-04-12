@@ -20,8 +20,10 @@ function changeMode() {
     
     if (box.checked) {
       itemChange.style.color = "#FFF";
+      interruptor.innerHTML = "Ascender as Luzes";
     } else {
-      itemChange.style.color = "#000001";
+        itemChange.style.color = "#000001";
+        interruptor.innerHTML = "Apagar as Luzes";
     }
   };
   
