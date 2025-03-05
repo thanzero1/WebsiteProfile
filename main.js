@@ -8,7 +8,7 @@ function changeMode() {
   for (t = 0; t < r.length; t++) {
     let e = r[t];
     box.checked
-      ? ((e.style.color = "#F9F6EE"),
+      ? ((e.style.color = "#FAF9F6"),
         (interruptor.innerHTML = "Mudar Tema"))
       : ((e.style.color = "#353935"));
         // (interruptor.innerHTML = "Apagar as Luzes"));
@@ -17,7 +17,7 @@ function changeMode() {
     let e = o[t];
     box.checked
       ? (e.style.backgroundColor = "#353935")
-      : (e.style.backgroundColor = "#F9F6EE");
+      : (e.style.backgroundColor = "#FAF9F6");
   }
 }
 interruptor.addEventListener("click", function () {
