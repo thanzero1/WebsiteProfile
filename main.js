@@ -10,7 +10,7 @@ function changeMode() {
     box.checked
       ? ((e.style.color = "#F9F6EE"),
         (interruptor.innerHTML = "Mudar Tema"))
-      : ((e.style.color = "##353935"));
+      : ((e.style.color = "#353935"));
         // (interruptor.innerHTML = "Apagar as Luzes"));
   }
   for (t = 0; t < o.length; t++) {
