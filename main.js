@@ -10,13 +10,13 @@ function changeMode() {
     box.checked
       ? ((e.style.color = "#FAF9F6"),
         (interruptor.innerHTML = "Mudar Tema"))
-      : ((e.style.color = "#353935"));
+      : ((e.style.color = "#1c1c1c"));
         // (interruptor.innerHTML = "Apagar as Luzes"));
   }
   for (t = 0; t < o.length; t++) {
     let e = o[t];
     box.checked
-      ? (e.style.backgroundColor = "#353935")
+      ? (e.style.backgroundColor = "#1c1c1c")
       : (e.style.backgroundColor = "#FAF9F6");
   }
 }
