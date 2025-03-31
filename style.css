@@ -14,6 +14,8 @@ body {
   line-height: 1.5;
   transition: 0.1s ease-in;
 }
+
+
 header {
   width: 100%;
   height: auto;
@@ -25,6 +27,9 @@ header {
   padding: 16px;
   transition: 0.1s ease-in;
 }
+
+
+
 header h5 {
   font-family: var(--fontype-Sora);
   font-size: 1.5em;
@@ -33,6 +38,9 @@ header h5 {
 #checkbox {
   display: none;
 }
+
+
+
 header a {
   font-size: 1em;
   height: fit-content;
@@ -46,20 +54,25 @@ header a {
   border-radius: 5px;
   padding: 0 5px;
 }
+
+
 header a:hover {
   background-color: #6565ff09;
 }
+
 main {
   padding: 20px;
   height: fit-content;
   max-width: 100vw;
   box-sizing: border-box;
 }
+
 .mainTitle {
   font-family: var(--fontype-Poppins);
   font-size: 2.675rem;
   line-height: 1.2;
 }
+
 .sectionSobre {
   font-family: var(--fontype-Sora);
   font-size: 1.2em;
@@ -68,23 +81,87 @@ main {
   padding: 20px;
   margin: 24px 0 64px;
 }
+
 .sectionPrincipios {
   padding: 20px;
   box-sizing: border-box;
   font-family: var(--fontype-Sora);
 }
+
 .sectionPrincipios ul {
   list-style: none;
   font-weight: 600;
   font-size: 1.4em;
   margin: 10px 0;
 }
+
 .sectionPrincipios h1 {
   font-weight: 600;
   line-height: 30px;
   font-size: 2em;
 }
-.sectionCarreira {
+
+
+.sectionHabilidades {
+  background-color: #bfbfba;
+  border-radius: 30px;
+  padding: 20px;
+  box-sizing: border-box; 
+  font-family: var(--fontype-Sora);
+}
+
+.sectionHabilidades ul {
+  list-style: none;
+  font-weight: 600;
+  font-size: 1.4em;
+  margin: 10px 0;
+}
+
+.sectionHabilidades ul a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+
+
+
+
+.customList  {
+    list-style: none;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+.sectionHabilidades h1 {
+  font-weight: 600;
+  line-height: 30px;
+  font-size: 2em;
+}
+
+@keyframes minhaAnimacao {
+  0% {width: 0px; height: 0px;}
+  50% {width: 60px; height: 70px;}
+  100% {width: 520px; height: 240px;}
+}
+
+.containerSkills {
+
+  animation-name: minhaAnimacao;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  transition: transform 2s ease-in-out;
+
+  border-radius: 12px;
+}
+
+/* .sectionCarreira {
   margin: 20px 0;
   font-family: var(--fontype-Sora);
   padding: 20px;
@@ -103,7 +180,8 @@ main {
 .sectionCarreira ul li h2 {
   font-size: 1.5em;
   font-weight: 600;
-}
+} */
+
 .emConstrucao {
   font-size: 1em;
   font-family: var(--fontype-Sora);
