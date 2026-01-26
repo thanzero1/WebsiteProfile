@@ -11,15 +11,15 @@ function changeMode() {
   for (t = 0; t < r.length; t++) {
     let e = r[t];
     box.checked
-      ? ((e.style.color = "#FAF9F6"), (interruptor.innerHTML = "Mudar Tema"))
-      : (e.style.color = "#1c1c1c");
+      ? ((e.style.color = "#FFF"), (interruptor.innerHTML = "Mudar Tema"))
+      : (e.style.color = "#000");
     // (interruptor.innerHTML = "Apagar as Luzes"));
   }
   for (t = 0; t < o.length; t++) {
     let e = o[t];
     box.checked
-      ? (e.style.backgroundColor = "#1c1c1c")
-      : (e.style.backgroundColor = "#FAF9F6");
+      ? (e.style.backgroundColor = "#000")
+      : (e.style.backgroundColor = "#FFF");
   }
 }
 interruptor.addEventListener("click", function () {
