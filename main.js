@@ -9,7 +9,7 @@ function changeMode() {
   let t = 0;
   for (t = 0; t < r.length; t++) {
     let e = r[t];
-    box.checked
+    box.checked 
       ? ((e.style.color = "#FFF"), (interruptor.innerHTML = "Mudar Tema"))
       : (e.style.color = "#000");
     // (interruptor.innerHTML = "Apagar as Luzes"));
